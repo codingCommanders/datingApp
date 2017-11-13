@@ -31,21 +31,21 @@
        <option for="q2" value="3">Your House</option>
        <option for="q2" value="4">Dinner and a Movie</option>
        <option for="q2" value="5">Slipknot Concert</option>
-       </select><br>
+     </select><br>
      <!-- q3-->
      <label>What is your highest level of education?</label><br>
      <select for="q3">
        <option for="q3" value="1">No College Degree</option>
        <option for="q3" value="2">BA/BS</option>
        <option for="q3" value="3">Graduate Degree</option>
-       </select><br>
+     </select><br>
      <!-- q4-->
      <label>What is your idea of a romantic evening?</label><br>
      <select for="q4">
        <option for="q4" value="1">Romantic Comedy</option>
        <option for="q4" value="2">PluralSight and Chill</option>
        <option for="q4" value="3">"Hey baby, do you wanna come over?</option>
-       </select><br>
+     </select><br>
      <!-- q5-->
      <label>Do you like sci-fi?</label><br>
      <input type="radio" name="q5" value="1">Yes</input><br>
@@ -62,8 +62,12 @@
        <option for="q7" value="3">Ask me how to proceed</option>
        <option for="q7" value="4">Tell me to suck it up.</option>
     </select><br><br>
-    <input type="submit" name="submit">
-       
+    <!-- q8--> 
+    <label>Would you play tag with me?</label><br>
+    <input type="radio" name="q8" value="1">Yes</input><br>
+    <input type="radio" name="q8" value="2">No</input><br>
+    <!-- Submit button-->
+    <input type="submit" name="submit">       
    </form>
  </body>
 </html>
